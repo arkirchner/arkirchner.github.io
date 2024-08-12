@@ -79,7 +79,7 @@ class CreateExtensionPostgis < ActiveRecord::Migration[7.0]
 end
 ```
 
-Unfortunately, Rails does not understand geometric data out of the box. The fantastic [RGeo GEM](https://github.com/rgeo/rgeo) can help with that. RGeo has a wrapper around an ActiveRecord's database connections to add geometry data support.
+Unfortunately, Rails does not understand geometric data out of the box. The fantastic [RGeo GEM](https://github.com/rgeo/rgeo) can help with that. RGeo has a wrapper around ActiveRecord's database connections to add geometry data support.
 
 Please add the GEM to your Gemfile.
 
